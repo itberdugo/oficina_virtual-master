@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your base theme settings */
+@layer base {
+  html {
+  --color-primary: #272829;
+  --color-secondary: #61677A;
+  --color-buttons: #D8D9DA;
+  --color-typography: #FFF6E0;
+  }
+}
+
+html[data-theme="aliansalud"] {
+  --color-primary: #64a414;
+  --color-secondary: #FFF6E0;
+  --color-buttons: #64a414;
+  --color-typography: #272829;
+  }
+
+  html[data-theme="foneca"] {
+    --color-primary: #ed1d24;
+    --color-secondary: #4c94cc;
+    --color-buttons: #4c94cc;
+    --color-typography: #272829;
+    }
+
+    html[data-theme="foneca"] {
+      --color-primary: #ed1d24;
+      --color-secondary: #4c94cc;
+      --color-buttons: #4c94cc;
+      --color-typography: #272829;
+      }
