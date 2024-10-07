@@ -27,7 +27,6 @@ export default async function Main() {
     <main className="w-full flex flex-col gap-5 justify-center items-center">
 
 
-      pruebasdasd
         {session.user.image === 'aliansalud'  && <Aliansalud nombre={session.user.name as string}  documento={session.user.email as string} />}
         {session.user.image === 'nueva eps'  && <Neps nombre={session.user.name as string}  documento={session.user.email as string} />}
     
